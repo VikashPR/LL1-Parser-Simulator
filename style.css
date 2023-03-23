@@ -1,7 +1,10 @@
 @import url('https://unpkg.com/tabulator-tables@4.6.2/dist/css/tabulator.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.css');
 
-body { text-align: center; }
+body { 
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+ }
 button { margin-bottom: 8px; }
 
 .sets, .tests {
