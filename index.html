@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>LL(1) Parser Simulator</title>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<div class="sets">
+		<h4>Generate First/Follow/Predict Sets</h4>
+		<button onclick="addRule()">Add More Rule</button>
+		<button onclick="generateSets()">Generate Sets</button>
+		<div id="rules_tbl"></div>
+		<div id="fsls_tbl"></div>
+		<div id="ps_tbl"></div>
+	</div>
+
+	<div class="tests">
+		<h4>Parse Input String</h4>
+		<button onclick="parse()">Parse Input</button>
+		<div id="tests_tbl"></div>
+		<div id="tree"></div>
+	</div>
+
+	<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.6.2/dist/js/tabulator.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.min.js"></script>
+	<!-- partial -->
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
