@@ -8,4 +8,4 @@ The simulator can be used by students, researchers, and developers to understand
 
 Overall, LL1-Parser-Simulator is a useful tool for anyone interested in learning about LL(1) parser and its implementation.
 
-![preview](https://user-images.githubusercontent.com/69889418/227200252-cc91e28b-ddd9-46f0-880c-dfacf46243b6.png)
+![preview](https://user-images.githubusercontent.com/69889418/227200252-cc91e28b-ddd9-46f0-880c-dfacf46243b6.png) 
