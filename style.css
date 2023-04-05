@@ -1,19 +1,25 @@
-@import url('https://unpkg.com/tabulator-tables@4.6.2/dist/css/tabulator.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.css');
+@import url("https://unpkg.com/tabulator-tables@4.6.2/dist/css/tabulator.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.css");
 
-body { 
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
- }
-button { margin-bottom: 8px; }
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+button {
+  margin-bottom: 8px;
+}
 
-.sets, .tests {
-	display: inline-block;
-	margin: 0 8px;
-	width: 45%;
-	vertical-align: top;
+.sets,
+.tests {
+  display: inline-block;
+  margin: 0 8px;
+  width: 45%;
+  vertical-align: top;
 }
 
 @media (max-width: 800px) {
-	.sets, .tests { width: 90%; }
+  .sets,
+  .tests {
+    width: 90%;
+  }
 }
