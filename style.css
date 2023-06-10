@@ -16,7 +16,6 @@ button {
   width: 45%;
   vertical-align: top;
 }
-
 @media (max-width: 800px) {
   .sets,
   .tests {
