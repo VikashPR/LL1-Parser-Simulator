@@ -327,7 +327,6 @@ function parse() {
 
 let addRule = () => { rules_tbl.addRow(); };
 let addTest = () => { tests_tbl.addRow(); };
-
 generateSets();
 parse();
 setTimeout(function(){ parse(); },5000);
